@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    font-size: xx-large;
+}
+.nav{
+    background-color: beige;
+    padding: 5px;
+}
+.nav-list{
+    list-style: none;
+
+}
+.nav-list-item{
+    margin: 0 10px;
+    display: inline;
+    padding: 15px;
+}
+.nav-list-item > a{
+    text-decoration-line: none;
+
+}
+.active{
+    border-bottom: 2px solid green;
+}
