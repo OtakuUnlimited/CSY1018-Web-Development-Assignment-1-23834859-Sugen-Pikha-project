@@ -11,7 +11,7 @@
 
 }
 .nav-list-item{
-    margin: 0 10px;
+    margin: 0 15px;
     display: inline;
     padding: 15px;
 }
@@ -21,4 +21,29 @@
 }
 .active{
     border-bottom: 2px solid green;
+}
+.nav-list-item:hover{
+    background-color: skyblue;
+    padding-top: 20px;
+}
+.nav-list-item{
+    transition: transform .2s;
+}
+.nav-list-item:hover {
+    transform: scale(1.3);
+    height: 30px;
+    width: 40px;
+    font-weight: bold;
+}  
+.image{
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 40px;
+}
+.port-info{
+    font-size: 25px;
 }
