@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+@media screen and (max-width:768px){
+    .column{
+        width: 100%;
+    }
+}
