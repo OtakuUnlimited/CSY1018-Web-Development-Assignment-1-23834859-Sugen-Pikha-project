@@ -1,0 +1,122 @@
+body{
+  font-family: 'Roboto Slab', serif;
+}
+.button {
+
+    border: none;   
+    background-color: cadetblue;
+    font-size: 25px; 
+    cursor: pointer;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(0.9);
+}
+
+.container{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.contact-bubble{
+  background-color: chocolate;
+  display: flex;
+}
+
+.queries{
+  padding: 30px 55px;
+  flex-basis: 60%;
+}
+
+.contact{
+  padding: 30px;
+  flex-basis: 40%;
+  background-color: cadetblue;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.container p{
+  margin-bottom: 45px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.input-area{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+label {
+  margin: 8px 12px 6px 0;
+}
+
+input {
+  width: 100%;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  background-color: inherit;
+}
+
+button {
+  border-radius: 10px;
+  width: 25%;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: rgba(153, 205, 50, 0.916);
+  border: none;
+  outline: none;
+  color: rgb(6, 6, 6);
+  box-shadow:0 5px 10px 0px blueviolet;
+}
+
+button:hover {
+  background-color: rgba(255, 228, 181, 0.845);
+}
+
+.input-area .input-space{
+  flex-basis: 40%;
+}
+ 
+textarea{
+  border:none;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: rgb(160, 157, 157);
+  outline: none;
+}
+
+.container label{
+  margin-bottom: 5px;
+  display: block;
+  color: rgba(240, 255, 255, 0.729);
+}
+
+tr td:first-child{
+  padding-right: 0.8rem;
+  font-weight: bolder;
+}
+
+tr td{
+  padding-top: 0.8rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+  .contact-bubble{
+    display:initial
+  }
+}

@@ -1,16 +1,24 @@
 *{
-    box-sizing: border-box;
+  padding: 0;
 }
 
-.image{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.background-image{
+    background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/hans-ott-xzygzr-i2Ys-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(59, 119, 159);
+    background-blend-mode: lighten;
 }
+
 .indexinfo{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 2px blue;
+}
+.title{
+  font-size: 3rem;
+  margin: 0;
 }
 
