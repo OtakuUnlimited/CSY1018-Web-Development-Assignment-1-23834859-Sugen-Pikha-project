@@ -1,5 +1,9 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
 .title{
     text-align: center;
+    font-size: 3rem;
 }
 
 .logo{

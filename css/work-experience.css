@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float:left;
+    width: 49.55%;
+    padding: 20px;
+    background-color:thistle;
+    margin: 1px;
+    text-align: justify;
+
+}
+
+.row{
+    background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/chirayu-trivedi-PWSRflLu33s-unsplash.jpg');
+}
+
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.column p{
+    font-size: 2rem;
+    font-weight: bold
+}
+
+.row h1{
+    font-size: 3rem;
+}
+
+@media screen and (max-width:1000px){
+    .column{
+        width: 100%;
+    }
+}
