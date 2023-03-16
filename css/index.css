@@ -1,24 +1,46 @@
-*{
-  padding: 0;
+
+.column1{
+  float: left;
+  width: 42.33%;
+  padding: 20px;
+}
+.column2{
+  float: right;
+  width: 45.33%;
+  padding: 20px;
 }
 
-.background-image{
-    background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/hans-ott-xzygzr-i2Ys-unsplash.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgb(59, 119, 159);
-    background-blend-mode: lighten;
+.column1 p{
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.indexinfo{
-    font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px 2px blue;
+.column2 p{
+  font-size: 2rem;
+  font-weight: bold;
 }
-.title{
+
+.row{
+  background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/hans-ott-xzygzr-i2Ys-unsplash.jpg');
+  height: 100rem;
+}
+
+.column h1{
   font-size: 3rem;
-  margin: 0;
+  font-weight: bolder;
 }
+
+.row::after{
+  content: "";
+  clear:both;
+  display: table;
+}
+
+@media screen and (max-width:768px){
+  .column{
+      width: 100%;
+  }
+}
+
+
 
