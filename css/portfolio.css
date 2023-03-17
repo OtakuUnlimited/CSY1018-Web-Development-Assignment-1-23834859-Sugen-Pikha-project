@@ -6,7 +6,7 @@
     width: 33.33%;
     padding: 20px;
 }
-.row{
+body{
     animation-name: backgrou;
     animation-duration: 6s;
     animation-iteration-count: infinite;

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Contact</title>
-        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/contact.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,8 @@
                     <i class="fas fa-bars"></i>
                 </label>
                 <label >
-                    <a href="/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/index.html">
-                        <img class="logo" src="./img/logo.png">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.png" alt="logo">
                     </a>
                 </label>
                 <ul class="nav-list">
@@ -41,53 +41,49 @@
             </nav>
         </div>
         <h1 class="title">Contact Us</h1>
-    </div>
-    <div class="container">
-        <h1>Contact With Us</h1>
-        <p>Contacts and queries can be accessed below :-</p>
-        <div class="contact-bubble">
-            <div class="queries">
-                <h2>Send request</h2>
-                <form>
-                    <div class="input-area">
-                        <div class="input-space">
-                            <label for="email">Email:</label>
-                            <input type="email" placeholder="Enter email">
+        <div class="container">
+            <h1>Contact With Us</h1>
+            <p>Contacts and queries can be accessed below :-</p>
+            <div class="contact-bubble">
+                <div class="queries">
+                    <h2>Send request</h2>
+                    <form>
+                        <div class="input-area">
+                            <div class="input-space">
+                                <label for="email">Email:</label>
+                                <input id="email" type="email" placeholder="Enter email">
+                            </div>
+                            <div class="input-space">
+                                <label for="number">Phone:</label>
+                                <input id="number" type="number" placeholder="Enter phone number">
+                            </div>
                         </div>
-                        <div class="input-space">
-                            <label for="pwd">Phone:</label>
-                            <input type="text" placeholder="Enter phone number">
+                        <div>
+                            <label>Description:</label>
+                            <textarea rows="6" placeholder=""></textarea>
                         </div>
+                        <div>
+                            <button  class="zoom" onclick="alert('Thank you for Submitting a request')" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact">
+                    <div>Contacts info</div>
+                    <div>
+                        <div>Email:</div>
+                        <div>sugenpikha@gmail.com</div>
                     </div>
                     <div>
-                        <label>Description:</label>
-                        <textarea rows="6" placeholder=""></textarea>
+                        <div>Phone number:</div>
+                        <div>9843973888</div>
                     </div>
                     <div>
-                        <button  class="zoom" type="submit">Submit</button>
-                    </div>
-                </form>
-            </div>
-            <div class="contact">
-                <h2>Contacts info</h2>
-                <table>
-                    <tr>
-                        <td>Email:</td>
-                        <td>sugenpikha@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td>Phone number:</td>
-                        <td>9843973888</td>
-                    </tr>
-                    <tr>
-                        <td>Address:</td>
-                        <td>Sankharapur-08, Kathmandu, Nepal</td>
-                    </tr>
-                </table>
-            </div>
-        </div>    
-
-    </div>
+                        <div>Address:</div>
+                        <div>Sankharapur-08, Kathmandu, Nepal</div>
+                    </div>   
+                </div>
+            </div>    
+        </div>
     
     </body>
 </html>

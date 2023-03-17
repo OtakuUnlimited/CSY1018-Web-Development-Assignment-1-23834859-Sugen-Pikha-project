@@ -20,9 +20,12 @@
   font-weight: bold;
 }
 
-.row{
-  background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/hans-ott-xzygzr-i2Ys-unsplash.jpg');
-  height: 100rem;
+body{
+  background-image: url('../img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .column h1{
