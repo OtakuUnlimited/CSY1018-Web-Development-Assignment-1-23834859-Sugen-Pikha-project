@@ -10,6 +10,8 @@ body{
     animation-name: backgrou;
     animation-duration: 6s;
     animation-iteration-count: infinite;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .row::after{
