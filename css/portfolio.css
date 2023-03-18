@@ -19,6 +19,7 @@ body{
     clear:both;
     display: table;
 }
+
 @media screen and (max-width:1018px){
     .image{
         width: 100%;
@@ -26,7 +27,7 @@ body{
 }
 
 @keyframes backgrou{
-    0% {background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/chirayu-trivedi-PWSRflLu33s-unsplash.jpg');}
-    50%{background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/alex-perez-ioJBsYQ-pPM-unsplash.jpg');}
-    100%{background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-2023153-Sugen-Pikha-project/img/chirayu-trivedi-PWSRflLu33s-unsplash.jpg');}
+    0% {background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-23834859-Sugen-Pikha-project/img/chirayu-trivedi-PWSRflLu33s-unsplash.jpg');}
+    50%{background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-23834859-Sugen-Pikha-project/img/alex-perez-ioJBsYQ-pPM-unsplash.jpg');}
+    100%{background-image: url('/CSY1018-Web-Development-Assignment 1-(ID)-Sugen Pikha-project/CSY1018-Web-Development-Assignment-1-23834859-Sugen-Pikha-project/img/chirayu-trivedi-PWSRflLu33s-unsplash.jpg');}
 }
