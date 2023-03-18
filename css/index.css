@@ -8,16 +8,19 @@
   float: right;
   width: 45.33%;
   padding: 20px;
+  padding-right: 3rem;
 }
 
 .column1 p{
   font-size: 2rem;
   font-weight: bold;
+  padding-left: 3rem;
 }
 
 .column2 p{
   font-size: 2rem;
   font-weight: bold;
+  text-align: justify;
 }
 
 body{
@@ -28,9 +31,17 @@ body{
   background-position: center;
 }
 
-.column h1{
+.column1 h1{
   font-size: 3rem;
   font-weight: bolder;
+}
+
+.column1{
+  color: rgb(171, 183, 194);
+}
+
+.column2{
+  color: rgb(171, 183, 194);
 }
 
 .row::after{

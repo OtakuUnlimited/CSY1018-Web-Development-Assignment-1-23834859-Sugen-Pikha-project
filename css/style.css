@@ -7,6 +7,7 @@
     font-size: 3rem;
     margin: 0;
     padding-bottom: 5rem;
+    padding-top:3rem;
 }
 /*for logo*/
 .logo{
@@ -16,7 +17,7 @@
     border-radius: 5px;
 }
 .logo :hover{
-    box-shadow: 3px 3px 4px 0px white;
+    box-shadow: 3px 3px 4px 4px white;
 }
 /*for navigation bar*/
 .nav{
@@ -98,7 +99,7 @@ body{
         background-blend-mode: lighten;
         text-align: center;
         top: 80px;
-        top: -100%;
+        top: -200%;
         transition: all .5s;
         margin: 0%;
         right:0.14rem;
@@ -118,7 +119,7 @@ body{
     }   
   #check:checked ~ ul{
     top:0%;
-    top:9rem;
+    top:8.4rem;
     } 
     .active{
        border: none;

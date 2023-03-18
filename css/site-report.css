@@ -6,6 +6,7 @@
     margin: 1px;
     text-align: justify;
     color: black;
+    display: flex;
 }
 
 .row::after{
@@ -15,6 +16,48 @@
 }
 
 .column p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold
+}
+
+.image{
+    width:16%;
+    float: left;
+    padding: 2px;
+}
+
+.image1{
+    width: 18%;
+    float: left;
+    padding:6px;
+}
+
+.image2{
+    width: 70%;
+    float: right;
+    padding: 5px;
+}
+
+.image-box{
+    flex-basis: 30%;
+}
+
+.text-box{
+    flex-basis: 70%;
+}
+@media only screen and (max-width:768px){
+    .image{
+        width: 48%;
+    }
+    .image1{
+        width: 48%;
+        padding: 2px;
+    }
+    .column{
+        text-align: center;
+        display: block;
+    }
+    .image2{
+        float: left;
+    }
 }
